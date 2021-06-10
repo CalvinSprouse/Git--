@@ -1,0 +1,1 @@
+pyinstaller --noconfirm --onefile --console --name "git--"  "git--.py"
