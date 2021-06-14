@@ -87,3 +87,5 @@ if __name__ == "__main__":
     # validate tags to ensure they exist
     if clone_repo(args["url"]):
         create_gitignore(os.path.join(os.getcwd(), args["url"].split("/")[-1]), *args["tags"])
+
+# TODO: Add specific file arguments (for things like build.bat)
